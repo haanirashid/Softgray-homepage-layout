@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .prtone {
+    text-align: center;
+    width: 400px;
+}
+
+.nav .prtone h1 {
+    font-weight: 300;
+}
+
+.nav .prttwo {
+    display: flex;
+    justify-content: space-around;
+    padding: 7px;
+    width: 1000px;
+    text-align: center;
+}
+
+.nav .subone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px;
+    width: 700px;
+}
+
+.nav .subtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    transition: 5s ease-in;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: black;
+}
+
+.nav .bold {
+    font-weight: 800;
+}
+
+.banner {
+    overflow: hidden;
+    width: 100%;
+    background-size: contain;
+    height: 400px;
+}
+
+.banner img {
+    position: absolute;
+    z-index: -1;
+}
+
+.banner .parra {
+    border: 1px solid black;
+    color: black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.banner .parra h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.sub_card {
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+
+.sub_card .prtone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+}
+
+
+
+.sub_card .icon {
+    border-radius: 100%;
+    background-color: #3598da;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3598da;
+    width: 30%;
+    height: 120px;
+}
+
+.sub_card .prttwo {
+    padding: 7px;
+    color: #3598da;
+}
+
+.sub_card .prtthree {
+    width: 100%;
+    height: 150px;
+}
+
+.sub_card .prtthree {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.slide {
+    overflow: hidden;
+    background-color: #e5e5e5;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.slide .prtone {
+    width: 50%;
+    height: inherit;
+    padding: 50px;
+}
+
+.slide .prtone p {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.slide .prtone button {
+    border: 2px solid white;
+    background-color: white;
+    width: 200px;
+    height: 35px;
+}
+
+.slide .prttwo {
+    width: 50%;
+    height: inherit;
+}
+
+.card_two {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.card_two .same {
+    background-color: white;
+    width: 30%;
+    height: 350px;
+    overflow: hidden;
+
+}
+
+.card_two .same .prtone {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+.same .prtone h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#black {
+    color: white;
+    background-color: black;
+}
+
+.cards_three {
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards_three .same {
+    width: 30%;
+    height: 400px;
+}
+
+.cards_three .same .img {
+    width: 100%;
+    height: 200px;
+}
+
+.cards_three .same .sub_header {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    color: #3598da;
+}
+
+.cards_three .same .parra {
+    height: 110px;
+    padding: 15px;
+    background-color: white; 
+}
+
+.author{
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color:#3598da ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 150px;
+}
+
+.author span{
+    color: #3598da;
+}
